@@ -70,22 +70,29 @@ These configurations work best with the following modern command-line tools:
 
 ```bash
 # Ubuntu/Debian
-sudo apt install zoxide ripgrep fd-find fzf
+sudo apt install zoxide ripgrep fd-find fzf bat
 
 # macOS
-brew install zoxide ripgrep fd fzf
+brew install zoxide ripgrep fd fzf bat jless
 
 # Arch Linux
-sudo pacman -S zoxide ripgrep fd fzf
+sudo pacman -S zoxide ripgrep fd fzf bat jless
 
 # Fedora
-sudo dnf install zoxide ripgrep fd-find fzf
+sudo dnf install zoxide ripgrep fd-find fzf bat
+```
+
+**Note:** `jless` may need to be installed via cargo on some systems:
+```bash
+cargo install jless
 ```
 
 - **[zoxide](https://github.com/ajeetdsouza/zoxide)** - Smarter cd command that learns your habits
 - **[ripgrep (rg)](https://github.com/BurntSushi/ripgrep)** - Faster alternative to grep
 - **[fd](https://github.com/sharkdp/fd)** - Faster and more user-friendly alternative to find
 - **[fzf](https://github.com/junegunn/fzf)** - Fuzzy finder for the command line
+- **[bat](https://github.com/sharkdp/bat)** - Cat clone with syntax highlighting and Git integration
+- **[jless](https://github.com/PaulJuliusMartinez/jless)** - Command-line JSON viewer with syntax highlighting
 
 ## Usage
 

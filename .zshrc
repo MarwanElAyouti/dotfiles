@@ -1,4 +1,3 @@
-export PATH="$PATH:$HOME/.local/bin"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -96,6 +95,7 @@ eval "$(zoxide init zsh)"
 alias -s md='bat'
 alias -s yaml='bat -l yaml'
 alias -s json='jless'
+
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
 zinit light-mode for \
@@ -106,3 +106,5 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
+# Add custom environment variables and PATH modifications below
+export PATH="$PATH:$HOME/.local/bin"

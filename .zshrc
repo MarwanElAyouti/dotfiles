@@ -80,6 +80,7 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 alias bat='batcat'
+alias weather='curl wttr.in'
 # CD to Z Alias
 cd() {
     if [[ $# -eq 0 ]]; then

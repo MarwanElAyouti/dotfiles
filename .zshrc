@@ -79,7 +79,7 @@ zstyle ':fzf-tab:complete:zoxide:*' fzf-preview 'ls -la --color=always {}'
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
-
+alias bat='batcat'
 # CD to Z Alias
 cd() {
     if [[ $# -eq 0 ]]; then
@@ -91,6 +91,10 @@ cd() {
 # Shell integrations
 eval "$(zoxide init zsh)"
 
+# Suffix Aliases
+alias -s md='bat'
+alias -s yaml='bat -l yaml'
+alias -s json='jless'
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
 zinit light-mode for \

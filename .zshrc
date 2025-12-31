@@ -75,6 +75,9 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color=always {}'
 zstyle ':fzf-tab:complete:zoxide:*' fzf-preview 'ls -la --color=always {}'
 # Aliases
+alias -g NE='2>/dev/null'
+alias -g DN='> /dev/null'
+alias -g NUL='>/dev/null 2>&1'
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'

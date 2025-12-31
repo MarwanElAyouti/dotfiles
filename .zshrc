@@ -94,6 +94,7 @@ eval "$(zoxide init zsh)"
 # Suffix Aliases
 alias -s md='bat'
 alias -s yaml='bat -l yaml'
+alias -s yml='bat -l yaml'
 alias -s json='jless'
 
 # Load a few important annexes, without Turbo

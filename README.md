@@ -6,6 +6,7 @@ My personal configuration files for Unix-based systems.
 
 - **`.zshrc`** - Zsh shell configuration
 - **`.tmux.conf`** - tmux terminal multiplexer configuration
+- **`.config/nvim/`** - Neovim configuration
 
 ## Installation
 
@@ -63,6 +64,7 @@ stow -D .
 - **GNU Stow** - Symlink farm manager
 - **Zsh** - Install via your package manager (`apt`, `brew`, `pacman`, etc.)
 - **tmux** - Install via your package manager
+- **Neovim** - Install via your package manager or from [neovim.io](https://neovim.io/)
 
 ### Recommended Utilities
 
